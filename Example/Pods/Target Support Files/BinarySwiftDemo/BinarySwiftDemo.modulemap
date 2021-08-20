@@ -1,6 +1,0 @@
-framework module BinarySwiftDemo {
-  umbrella header "BinarySwiftDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}

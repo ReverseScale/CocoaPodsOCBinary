@@ -368,12 +368,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ABC_Example/Pods-ABC_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ABC/ABC.framework",
-				"${BUILT_PRODUCTS_DIR}/BinarySwiftDemo/BinarySwiftDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ABC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BinarySwiftDemo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

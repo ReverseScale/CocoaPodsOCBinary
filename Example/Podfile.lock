@@ -1,21 +1,16 @@
 PODS:
   - ABC (0.1.0)
-  - BinarySwiftDemo (0.1.0)
 
 DEPENDENCIES:
   - ABC (from `../`)
-  - BinarySwiftDemo (from `../../CocoaPodsSwiftBinary`)
 
 EXTERNAL SOURCES:
   ABC:
     :path: "../"
-  BinarySwiftDemo:
-    :path: "../../CocoaPodsSwiftBinary"
 
 SPEC CHECKSUMS:
   ABC: d9492fa02b6c6fd0eb5d6749c95f8125f2b14604
-  BinarySwiftDemo: 3778a326ed34c03292db3a7480373c06a46c6cb0
 
-PODFILE CHECKSUM: f1fdb831872270c8b118dbabc529987061fb7286
+PODFILE CHECKSUM: b18d66ddd00c2afb297990bf282a85113c7f53d5
 
 COCOAPODS: 1.10.2
