@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09DC50E624A9FA4C0047DDBB /* placeholder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09DC50E324A9FA4C0047DDBB /* placeholder.h */; };
 		09DC50EF24A9FDFA0047DDBB /* ABC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DC50EE24A9FDF90047DDBB /* ABC.m */; };
 		09DC50F124A9FEB50047DDBB /* ABC.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DC50ED24A9FDF90047DDBB /* ABC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EE2EAB1B437582C1AB78BB5 /* Pods_ABC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EACF4A32E7308800085BDDB /* Pods_ABC_Example.framework */; };
@@ -45,7 +44,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				09DC50E624A9FA4C0047DDBB /* placeholder.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +265,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0ED7C04BF99A5199552F8BBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -360,24 +357,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0ED7C04BF99A5199552F8BBC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ABC_Example/Pods-ABC_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ABC/ABC.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ABC.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABC_Example/Pods-ABC_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1292D7906388FB21EAEC7966 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

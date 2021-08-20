@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ABC/Classes/**/*"
+  "prepare_command": "/bin/bash build_lib.sh",
+  "source_files": "Pod/Products/include/**",
+  "ios": {
+    "vendored_libraries": "Pod/Products/lib/*.a"
+  },
+  "public_header_files": "Pod/Products/include/*.h"
 }

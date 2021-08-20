@@ -17,16 +17,14 @@
 
 @implementation ABCViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
 	[super viewDidLoad];
 
 	ABC *abc = [ABC new];
 	[abc dododo];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 }
 
